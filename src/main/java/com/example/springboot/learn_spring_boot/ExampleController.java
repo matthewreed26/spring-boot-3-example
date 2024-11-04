@@ -13,7 +13,8 @@ public class ExampleController {
     public List<Example> retrieveAllExamples() {
         return Arrays.asList(
                 new Example(1),
-                new Example(2)
+                new Example(2),
+                new Example(3)
         );
     }
 }
